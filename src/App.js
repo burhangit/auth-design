@@ -3,6 +3,7 @@ import "./App.css";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 
+
 const App = () => {
   const [toggler, setToggler] = useState(true);
 
@@ -15,7 +16,6 @@ const App = () => {
   return (
     <div className="App">
       <div className="app__card">
-        {/* App card header */}
         <div className="app__cardHeader">
           <button
             className={`signInBtn ${toggler ? "active" : ""} `}
